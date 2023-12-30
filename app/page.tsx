@@ -19,7 +19,7 @@ export default async function Home() {
           maxime dolores ratione eaque corporis vero, et totam, harum ad
           praesentium. Rem.
         </p>
-        <pre>{JSON.stringify(session)}</pre>
+        {/* <div className="flex flex-wrap w-full">{JSON.parse(session?.user)}</div> */}
       </MasterLayout>
     </div>
   );
